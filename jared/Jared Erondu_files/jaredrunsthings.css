@@ -1,0 +1,242 @@
+/* ================================================================
+   I'm Jared Erondu. This is my shit. Why are you reading this? GET OUT :)
+   ================================================================ */
+
+
+/* ================================================================
+   HTML5 Boilerplate CSS:
+   ================================================================ */
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif;color:#222}body{margin:0;font-size:1em;line-height:1.4}::-moz-selection{background:RGBA(0,0,0,0.9);color:#fff;text-shadow:none}::selection{background:RGBA(0,0,0,0.9);color:#fff;text-shadow:none}a{color:#00e}a:visited{color:#551a8b}a:hover{color:#06e}a:focus{outline:thin dotted}a:hover,a:active{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}ins{background:#ff9;color:#000;text-decoration:none}mark{background:#ff0;color:#000;font-style:italic;font-weight:bold}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:"";content:none}small{font-size:85%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}ul,ol{margin:1em 0;padding:0 0 0 40px}dd{margin:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none;margin:0;padding:0}img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:0;margin:0;padding:0}label{cursor:pointer}legend{border:0;*margin-left:-7px;padding:0;white-space:normal}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*width:13px;*height:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top;resize:vertical}input:invalid,textarea:invalid{background-color:#f0dddd}table{border-collapse:collapse;border-spacing:0}td{vertical-align:top}.chromeframe{margin:.2em 0;background:#ccc;color:black;padding:.2em 0}
+
+/* ================================================================
+   html, body, nav, hgroup, section, article,  styles and stuff...
+   ================================================================ */
+   
+   html {
+   	height: 100%;
+   }
+   
+   body {
+    margin: 0 auto;
+   	background: #fff;
+   	font-family: "proxima-nova", "helvetica", sans-serif;
+   	color: #606c78;
+   	text-rendering: optimizeLegibility;
+   	-webkit-font-smoothing: antialiased;
+   }
+   
+   #string {
+   	background: #333;
+   	height: 5px;
+   }
+   
+   .wrapper {
+   	max-width: 980px;
+   	margin: 0 auto;
+   }
+   
+   header {
+   	margin-top: 50px;
+   	border-bottom: 1px solid #eee;
+   	padding-bottom: 40px;
+   }
+   
+   .tweet {
+   	text-align: center;
+   	font-size: 20px;
+   }
+   
+   .face {
+   	display: block;
+   	margin: 40px auto 0;
+   }
+   
+   section {
+   	max-width: 42%;
+   	padding: 2% 4%;
+   	float: left;
+   	margin-bottom: 50px; 
+   }
+   
+   article {
+   	margin: 25px 0;
+   }
+   
+   aside {
+   	max-width: 80%;
+   	clear: both;
+   	margin: 0 auto;
+   }
+   
+   footer {
+   	border-top: 1px solid #eee;
+   	margin: 50px 0 0px;
+   	padding-bottom: 5px;
+   }
+   
+/* ===================================
+   typography and stuff...
+   =================================== */
+   
+   h1 { 
+   font-family: "estilo-pro",sans-serif;
+   font-weight: 500;
+   letter-spacing: 2px;
+   font-size: 48px; 
+   text-align: center; 
+   line-height: 10px; 
+   color: #4f5963;
+   margin: 70px 0 0;
+   }
+   
+   h2 { 
+   text-align: center; 
+   text-transform: uppercase; 
+   letter-spacing: .33em;
+   font-weight: 600; 
+   line-height: 45px; 
+   font-size: 10px; 
+   margin: 0;
+   color: #c6c6cb;
+   	padding: 0;
+   }
+   
+   h3 { 
+   text-align: center; 
+   font-weight: 600; 
+   font-family: kulturista-web; 
+   text-transform: uppercase; 
+   color: #667380;
+   letter-spacing: 5px; 
+   margin: 40px 0 50px;
+   font-size: 22px; 
+   }
+   
+   h4 {
+   	font-size: 20px;
+   	line-height: 30px;
+   	font-weight: normal;
+   	margin: 35px 0 0;
+   }
+   
+   h5 {
+   	text-transform: uppercase; 
+   	letter-spacing: 3px;
+   	font: normal 10px proxima-nova;
+   	color: #8e9aa5;
+   	margin: 5px 0 0;
+   }
+   
+   p { 
+   margin-bottom: 25px; 
+   font-weight: 400; 
+   font-size: 16px; 
+   line-height: 30px; 
+   margin-top: 25px; 
+   }
+   
+   aside > p {
+   	text-align: center;
+   	font-weight: bold;
+   	margin: 0;
+   	font-size: 20px;
+   }
+   
+   .ss-icon {
+   	vertical-align: middle;
+   }
+   
+   .meta {
+   	font-weight: normal;
+   	font-size: 14px;
+   	color: #8e9aa5;
+   }
+   
+   .quote > p {
+   	text-align: center;
+   } 
+   
+   footer > p {
+   	text-align: center;
+   	font-size: 12px;
+   	color: #8e9aa5;
+   }
+   
+/* ===================================
+   anchors and stuff...
+   =================================== */
+   
+   a {
+   	text-decoration: none;
+   	color: #369BCA;
+   	-webkit-transition: all 0.2s ease-in-out;
+   	-moz-transition: all 0.2s ease-in-out;  
+   	transition: all 0.2s ease-in-out;
+   }
+   
+   a:visited {
+   	color: #369BCA;
+   }
+   
+   a:hover {
+   	color: #323a42;
+   }
+   
+   a:active,
+   a:focus{
+   	position:relative;
+   	top:1px;
+   }
+   
+   h4 > a {
+   	color: #707e8c;
+   }
+   
+   h4 > a:visited {
+   	color: #707e8c;
+   }
+   
+   h4 > a:hover {
+   	color: #369BCA;
+   }
+   
+/* ===================================
+   media queries and stuff...
+   =================================== */
+   
+   @media screen and (max-width: 768px) {
+     
+     h1 {
+     	font-size: 50px;
+     }
+     
+     h2 {
+     	font-size: 10px;
+     	letter-spacing: 3px;
+     	-webkit-transition: all 0.2s ease-in-out;
+     	-moz-transition: all 0.2s ease-in-out;  
+     	transition: all 0.2s ease-in-out;
+     }
+     
+     h4, h5 {
+     	text-align: center;
+     }
+     
+     section {
+     	float: none;
+     	max-width: 85%;
+     	margin: auto;
+     	-webkit-transition: all 0.2s ease-in-out;
+     	-moz-transition: all 0.2s ease-in-out;  
+     	transition: all 0.2s ease-in-out;
+     }
+     
+     .right {
+     	margin-bottom: 60px;
+     }
+     
+     .left {
+     	margin-bottom: 0;
+     }
+   }
