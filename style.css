@@ -1,5 +1,6 @@
 body {
 	background: #fff;
+	font-family: helvetica;
 
 }
 
@@ -11,6 +12,8 @@ a {
 	color: #333;
 	margin: 0 auto 30px;
 	text-align: center;
+	/* background: pink; */
+	min-width: 800px;
 }
 #header img {
 	display: block;
@@ -19,21 +22,28 @@ a {
 }
 
 #container {
-	width: 1200px;
+	width: 80%;
+	min-width: 800px;
 	height: 200px;
-	margin: 50px auto 160px;
+	margin: 50px auto 360px;
+	/* background: green; */
 }
 
 #left {
-	width: 400px;
-	background: blue;
+	max-width: 400px;
+	padding-left: 50px;
+	/* background: blue; */
 	float: left;
+	margin: 50px auto 50px;
 }
 
 #right {
-	background: red;
-	width: 300px;
+	/* background: red; */
+	max-width: 32%;
+	float: left;
 	color: #333;
+	margin: 50px auto 50px;
+	padding-left: 100px;
 }
 
 #clear {
@@ -43,4 +53,9 @@ a {
 #footer {
 	margin: 100px auto 0;
 	text-align: center;
+}
+
+li {
+	list-style-type: none;
+	margin: 20px 0 20px -38px;
 }
